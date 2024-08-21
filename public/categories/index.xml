@@ -4,6 +4,11 @@
     <title>Categories on Revanth&#39;s blog</title>
     <link>https://revanthp.github.io/categories/</link>
     <description>Recent content in Categories on Revanth&#39;s blog</description>
+    <image>
+      <title>Revanth&#39;s blog</title>
+      <url>https://revanthp.github.io/site-feature-image.jpg</url>
+      <link>https://revanthp.github.io/site-feature-image.jpg</link>
+    </image>
     <generator>Hugo -- 0.133.0</generator>
     <language>en</language>
     <atom:link href="https://revanthp.github.io/categories/index.xml" rel="self" type="application/rss+xml" />

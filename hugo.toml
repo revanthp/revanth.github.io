@@ -15,10 +15,15 @@ buildExpired = false
 enableEmoji = true
 pygmentsUseClasses = true
 mainsections = ["posts"]
+enableGitInfo = true
+
+[services]
+  [services.googleAnalytics]
+    ID = "googlec454b1d57d24080d"
 
 [minify]
 disableXML = true
-# minifyOutput = true
+minifyOutput = true
 
 [indexes]
 category = "categories"
@@ -27,7 +32,9 @@ tag = "tags"
 [params]
 search_engine = true
 env = "production"
-description = "A place to store Revanth's notes."
+description = "Revanth's personal blog about technology, programming, and more."
+keywords = ["blog", "tech", "programming", "machine learning", "artificial intelligence"]
+images = ["site-feature-image.jpg"]
 author = ["Revanth Pentyala"]
 defaultTheme = "auto"
 # disableThemeToggle = true
@@ -76,10 +83,10 @@ title = "Linkedin Profile"
 url = "https://www.linkedin.com/in/revanthpentyala/"
 
 [security]
-enableInlineShortcodes = false
+enableInlineShortcodes = true
 
 [security.exec]
-allow = ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^asciidoctor$"]
+allow = ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^asciidoctor$", "^git$"]
 osEnv = ["(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|RUBYLIB)$"]
 
 [security.funcs]
@@ -136,3 +143,9 @@ weight = 20
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
+
+# for SEO and google search
+[sitemap]
+changefreq = "weekly"
+filename = "sitemap.xml"
+
