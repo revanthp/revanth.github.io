@@ -2,20 +2,14 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/posts/my-second-file/</loc>
+    <loc>https://revanthp.github.io/posts/</loc>
     <lastmod>2024-08-21T11:43:35-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/posts/</loc>
+    <loc>https://revanthp.github.io/</loc>
     <lastmod>2024-08-21T11:43:35-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/</loc>
-    <lastmod>2024-08-21T11:43:35-05:00</lastmod>
+    <loc>https://revanthp.github.io/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/posts/my-first-file/</loc>
-    <lastmod>2024-08-21T11:43:26-05:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://revanthp.github.io/tags/</loc>
   </url>
 </urlset>
