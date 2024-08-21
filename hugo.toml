@@ -3,6 +3,16 @@ languageCode = 'en-us'
 title = "Revanth's blog"
 
 theme = ["PaperMod"]
+contentdir = "content"
+publishdir = "public"
+builddrafts = false
+canonifyurls = true
+[indexes]
+  category = "categories"
+  tag = "tags"
+
+[params]
+  search_engine = true
 
 [security]
 enableInlineShortcodes = false
