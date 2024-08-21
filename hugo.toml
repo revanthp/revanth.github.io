@@ -1,0 +1,28 @@
+baseURL = 'https://revanthp.github.io/'
+languageCode = 'en-us'
+title = "Revanth's blog"
+
+theme = ["PaperMod"]
+
+[security]
+enableInlineShortcodes = false
+
+[security.exec]
+allow = ["^dart-sass-embedded$", "^go$", "^npx$", "^postcss$", "^asciidoctor$"]
+osEnv = ["(?i)^(PATH|PATHEXT|APPDATA|TMP|TEMP|TERM|RUBYLIB)$"]
+
+[security.funcs]
+getenv = ["^HUGO_"]
+
+[security.http]
+methods = ["(?i)GET|POST"]
+urls = [".*"]
+
+[markup]
+  [markup.tableOfContents]
+    endLevel = 3
+    ordered = false
+    startLevel = 2
+
+baseURL = "http://revanthp.github.io/"
+paginate= 5

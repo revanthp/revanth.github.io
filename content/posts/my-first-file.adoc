@@ -1,0 +1,13 @@
+---
+title: "My First File"
+date: 2024-08-21T11:43:26-05:00
+draft: true
+---
+:toc: auto
+
+== Section 1
+some content
+
+== Section 2
+some content
+
