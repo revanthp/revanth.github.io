@@ -68,6 +68,12 @@ Content = """
 [[params.socialIcons]]
 name = "github"
 title = "View Source on Github"
+url = "https://github.com/revanthp"
+
+[[params.socialIcons]]
+name = "linkedin"
+title = "Linkedin Profile"
+url = "https://www.linkedin.com/in/revanthpentyala/"
 
 [security]
 enableInlineShortcodes = false
@@ -107,7 +113,7 @@ series = "series"
 [[languages.en.menu.main]]
 name = "Posts"
 url = "posts"
-weight = 5
+weight = 1
 
 [[languages.en.menu.main]]
 name = "Archive"
@@ -122,11 +128,11 @@ weight = 10
 [[languages.en.menu.main]]
 name = "Tags"
 url = "tags/"
-weight = 10
+weight = 20
 
-[[languages.en.menu.main]]
-name = "WiKi"
-url = "https://github.com/adityatelange/hugo-PaperMod/wiki/"
+# [[languages.en.menu.main]]
+# name = "WiKi"
+# url = "https://github.com/revanthp"
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]
