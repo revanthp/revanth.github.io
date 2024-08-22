@@ -48,7 +48,7 @@ category = "categories"
 tag = "tags"
 
 [params]
-images = ["static/img/favicon.ico"]
+images = ["/favicon.ico"]
 search_engine = true
 env = "production"
 description = "Revanth's personal blog about technology, programming, and more."
@@ -91,11 +91,11 @@ Content = """
 """
 
 [params.assets]
-favicon = "static/img/favicon.ico"
-favicon16x16 = "static/img/favicon-16x16.png"
-favicon32x32 = "static/img/favicon-32x32.png"
-apple_touch_icon = "static/img/apple-touch-icon.png"
-safari_pinned_tab = "static/img/safari-pinned-tab.svg"
+favicon = "/favicon.ico"
+favicon16x16 = "/favicon-16x16.png"
+favicon32x32 = "/favicon-32x32.png"
+apple_touch_icon = "/apple-touch-icon.png"
+safari_pinned_tab = "/safari-pinned-tab.svg"
 
 
 [[params.socialIcons]]
