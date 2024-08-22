@@ -48,7 +48,7 @@ category = "categories"
 tag = "tags"
 
 [params]
-images = ["public/static/logo.webp"]
+images = ["static/img/favicon.ico"]
 search_engine = true
 env = "production"
 description = "Revanth's personal blog about technology, programming, and more."
