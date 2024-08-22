@@ -90,6 +90,14 @@ Content = """
 - This is designed to be a collection of my notes.
 """
 
+[params.assets]
+favicon = "static/img/favicon.ico"
+favicon16x16 = "static/img/favicon-16x16.png"
+favicon32x32 = "static/img/favicon-32x32.png"
+apple_touch_icon = "static/img/apple-touch-icon.png"
+safari_pinned_tab = "static/img/safari-pinned-tab.svg"
+
+
 [[params.socialIcons]]
 name = "github"
 title = "View Source on Github"
