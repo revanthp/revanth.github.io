@@ -48,11 +48,11 @@ category = "categories"
 tag = "tags"
 
 [params]
+images = ["public/static/logo.webp"]
 search_engine = true
 env = "production"
 description = "Revanth's personal blog about technology, programming, and more."
 keywords = ["blog", "tech", "programming", "machine learning", "artificial intelligence"]
-images = ["site-feature-image.jpg"]
 author = ["Revanth Pentyala"]
 defaultTheme = "auto"
 # disableThemeToggle = true
